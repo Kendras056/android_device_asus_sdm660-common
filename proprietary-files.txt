@@ -351,7 +351,6 @@ system_ext/lib/libbeluga.so|8c471c924e3da8433ffb20ec86e2539d440a502c
 system_ext/lib64/libbeluga.so|ee3c1b68bc44372cbc63d074a786ca460605fc45
 
 # Listen
-vendor/lib/hw/sound_trigger.primary.sdm660.so
 vendor/lib/libadpcmdec.so
 vendor/lib/libgcs-calwrapper.so
 vendor/lib/libgcs-ipc.so
