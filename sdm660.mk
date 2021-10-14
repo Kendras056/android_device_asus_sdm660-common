@@ -191,6 +191,10 @@ PRODUCT_PACKAGES += \
     libhwbinder \
     libhwbinder.vendor
 
+# HW crypto
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.cryptfshw@1.0-service-qti.qsee
+
 # Input
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl
@@ -267,10 +271,6 @@ PRODUCT_PACKAGES += \
 # Neuralnetworks
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor
-
-# OEM Unlock reporting
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    ro.oem_unlock_supported=1
 
 # OMX
 PRODUCT_PACKAGES += \
@@ -457,11 +457,6 @@ PRODUCT_PACKAGES += \
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic
-
-# Verity
-PRODUCT_SYSTEM_VERITY_PARTITION=/dev/block/bootdevice/by-name/system
-PRODUCT_VENDOR_VERITY_PARTITION=/dev/block/bootdevice/by-name/vendor
-$(call inherit-product, build/target/product/verity.mk)
 
 # Vibrator
 PRODUCT_PACKAGES += \
