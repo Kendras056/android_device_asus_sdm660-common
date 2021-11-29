@@ -81,7 +81,8 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap
+    Snap \
+    Nekopoi
 
 PRODUCT_PACKAGES += \
     android.hardware.camera.common@1.0 \
