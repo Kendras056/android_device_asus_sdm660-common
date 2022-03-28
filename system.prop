@@ -6,6 +6,10 @@
 bt.max.hfpclient.connections=1
 vendor.bluetooth.soc=cherokee
 
+# Battery Saving
+ro.ril.disable.power.collapse=1
+pm.sleep_mode=1
+
 # Blur
 ro.launcher.blur.appLaunch=0
 ro.surface_flinger.supports_background_blur=0
