@@ -65,6 +65,12 @@ ro.nfc.port=I2C
 # NTP Server
 persist.backup.ntpServer="0.pool.ntp.org"
 
+# Octavi's props
+ro.octavi.maintainer=Tiktodz
+ro.octavi.display.pid=1443828
+ro.octavi.hw.cam=16MP:8MP 
+ro.octavi.hw.cpu=Qualcomm SDM636 Snapdragon 636 (14 nm)
+
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1
 
