@@ -8,7 +8,7 @@ git clone https://github.com/Kendras056/android_build -b 10 build/make
 
 # KSU
 rm -rf kernel/asus/sdm660
-git clone --recursive https://github.com/Kendras056/android_kernel_asus_sdm660 -b 10 kernel/asus/sdm660
+git clone --recursive https://github.com/Kendras056/kernel_asus_sdm660 -b 13 kernel/asus/sdm660
 
 # LiveDisplay
 rm -rf hardware/lineage/livedisplay
